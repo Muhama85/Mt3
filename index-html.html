@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DeepSite - بناء المواقع بالذكاء الاصطناعي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" href="public/favicon.ico">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="public/images/logo.svg" alt="DeepSite Logo">
+            <h1>DeepSite</h1>
+        </div>
+        <div class="nav-buttons">
+            <button class="new-btn">+ New</button>
+            <span class="tagline">Imagine and Share in 1-Click</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="editor-container">
+            <div class="file-path">index.html</div>
+            <div class="editor">
+                <div class="line-numbers">
+                    <!-- Line numbers will be added by JavaScript -->
+                </div>
+                <div class="code-area">
+                    <pre id="code-display"><!DOCTYPE html>
+<html>
+<head>
+    <title>My app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .arrow {
+            position: absolute;
+            bottom: 32px;
+            left: 0px;
+            width: 100px;
+            transform: rotate(30deg);
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h1 span {
+            color: #acacac;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span>I'm ready to work,</span><br />
+        Ask me anything.
+    </h1>
+    <img src="https://enzostve-deepsite.hf.space/arrow.svg" class="arrow" />
+    <script></script>
+</body>
+</html></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="powered-by">
+            Powered by <img src="public/images/deepseek-logo.svg" alt="Deepseek Logo">
+        </div>
+    </div>
+
+    <div class="ai-chat">
+        <button class="chat-toggle">
+            <span>Ask AI anything...</span>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
